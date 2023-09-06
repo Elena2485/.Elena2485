@@ -1,5 +1,5 @@
 def task_1(f: int, j: float, x: list, y: str, k: bool) -> bool:
-    return  f * j and 'x' + 'y' and k
+    return f * j and 'x' + 'y' and k
 print(task_1(8, 3.14, ['Название', ' дерева', ' на английском:'], 'Tree', True))
 
 #############  task_2 ########################
