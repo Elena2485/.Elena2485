@@ -53,9 +53,15 @@ else:
 # Найти количество положительных чисел среди них.
 
 #spisok_5 = [10, 11, 12, 13, 14]
-# for elem in spisok_5
-#   > 0
+#
+# for elem in spisok_5:
+#  if elem > 0
+# count c = c + 1
 # print spisok_5(elem >0) ## Не получилось в списке сравнить
+
+# объявить main функцию
+# len(list(filter(lambda(x:x>0))
+# return len (эта строка)
 
 # Некрасиво, туповато, но работает ###########
 n = -21
@@ -98,13 +104,10 @@ print(x1 + x2 + x3 + x4 + x5)
 
 kol_let = 10
 kol_mes = 3
-# Kol_dney_v_godu = 12 * 29 * kol_let
-# Kol_dney_v_mes = 29 * kol_mes
-#def Itog_dney(Kol_dney_v_godu: int, Kol_dney_v_mes: int):
 
 if kol_let >= 0 and kol_mes >= 0:
     Kol_dney_v_godu = 12 * 29 * kol_let
-    Kol_dney_v_mes = 29 * kol_mes
+    Kol_dney_v_mes  = 29 * kol_mes
     print(Kol_dney_v_godu + Kol_dney_v_mes)
 else:
     print('Введите значение')
