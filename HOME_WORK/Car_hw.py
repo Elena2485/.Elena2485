@@ -12,7 +12,9 @@ class Car:
         print('Автомобиль заведен')
     def shutdown(self):
         print('Автомобиль заглушен')
-    def god(self):
+    ##def god(self):
+    def add_y(self.year, y_new)
+    self.year = y_new
         print('Год выпуска автомобиля ' + self.year)
     def tip(self):
         print('Тип автомобиля - ' + self.type)
@@ -23,6 +25,6 @@ avto = Car('Blue','Хэтчбек', '2023')
 
 avto.start()
 avto.shutdown()
-avto.god()
+add_y.god()
 avto.tip()
 avto.tsvet()

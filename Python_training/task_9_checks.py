@@ -6,15 +6,20 @@
 ####e.	распечатайте в консоль результаты метода .check_text() вызванного
 # от каждого объекта классов файла task_9_oop_1.py
 class Checks:
-    def __init__(self, loc, text):
+    def __init__(self, loc):
         self.loc  = loc
-        self.text = text
-#from task_9_oop_1 import Input()
+
     def check_text(self):
-        print(self.loc + ' ' + self.text)
+        return self.loc
+
+    from Python_training.task_9_oop import Input(Checks)
+    def __init__(self, loc, text)
+        super().__init__(text)
+            self.text = text
 
 
-txt = Checks('ДЗ №4 Классы', 'Не получилось вытащить class из файла task_9_oop_1')
+txt = Checks(' ', ' из файла task_9_oop_1')
 #txt = Checks(Input())
 txt.check_text()
+.check_text()
 

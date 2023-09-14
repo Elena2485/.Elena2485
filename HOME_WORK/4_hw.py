@@ -1,4 +1,4 @@
-# класс прямоугольника
+# класс прямоугольника # задание 1
 class Pryamoug:
     def __init__(self, shirina, vysota):
         self.shirina = shirina
@@ -21,7 +21,7 @@ Param3 = Pryamoug(7, 12)
 print('№3 ' + Param3.perimetr())
 print('№3 ' + Param3.ploshad())
 
-######################
+######################Задание 2
 class Match:
     def __init__(self, a, b):
         self.a = a
@@ -31,9 +31,9 @@ class Match:
     def multiplication(self):
         return self.a * self.b
     def division(self):
-        return self.a * self.b
-    def subtraction(self):
         return self.a / self.b
+    def subtraction(self):
+        return self.a - self.b
 
 data = Match(10, 5)
 print('Задание 2 ### class Match ### class Match ### class Match ###')
@@ -41,3 +41,6 @@ print(data.addition())
 print(data.multiplication())
 print(data.division())
 print(data.subtraction())
+
+############ Задание 3
+## откройте страницу https://demoqa.com/text-box
