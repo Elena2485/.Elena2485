@@ -6,5 +6,5 @@ class Page:
     def get(self):
        print(self.url)
 
-home = Page('https://yandex.ru')
+home = Page('https://yandex.ru/')
 home.get()

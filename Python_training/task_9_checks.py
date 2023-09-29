@@ -12,14 +12,15 @@ class Checks:
     def check_text(self):
         return self.loc
 
-    from Python_training.task_9_oop import Input(Checks)
-    def __init__(self, loc, text)
+#   from Python_training.task_9_oop import Input(Checks)
+    def __init__(self, loc, text):
         super().__init__(text)
-            self.text = text
+            self.loc = ''
+            self.text = 'text'
 
 
 txt = Checks(' ', ' из файла task_9_oop_1')
 #txt = Checks(Input())
 txt.check_text()
-.check_text()
+#.check_text()
 
